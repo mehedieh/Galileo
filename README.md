@@ -34,9 +34,9 @@ $ python galileo.py
 Usage
 ----
 
-```
-# set global options
+Set global options:
 
+```
 galileo #> set
   Set A Context-Specific Variable To A Value
   ------------------------------------------
@@ -55,7 +55,19 @@ galileo #> set
   VERBOSITY   1                                        yes       Verbosity level (0 = minimal,1 = verbose)
 ```
 
+Search module:
+```
+galileo #> search disclosure
+[+] Searching for 'disclosure'...
 
+  Disclosure
+  ----------
+    disclosure/code
+    disclosure/creditcard
+    disclosure/email
+    disclosure/privateip
+
+```
 
 
 
