@@ -30,3 +30,32 @@ __Run__
 ```
 $ python galileo.py
 ```
+
+Usage
+----
+
+```
+# set global options
+
+galileo #> set
+  Set A Context-Specific Variable To A Value
+  ------------------------------------------
+  - Usage: set <option> <value>
+  - Usage: set COOKIE phpsess=hacker_test
+
+
+  Name        Current Value                            Required  Description
+  ----------  -------------                            --------  -----------
+  PAUTH                                                no        Proxy auth credentials (user:pass)
+  PROXY                                                no        Set proxy (host:port)
+  REDIRECT    True                                     no        Set redirect
+  THREADS     5                                        no        Number of threads
+  TIMEOUT     5                                        no        Set timeout
+  USER-AGENT  Mozilla/5.0 (X11; Ubuntu; Linux x86_64)  yes       Set user-agent
+  VERBOSITY   1                                        yes       Verbosity level (0 = minimal,1 = verbose)
+```
+
+
+
+
+
