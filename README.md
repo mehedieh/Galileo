@@ -28,5 +28,5 @@ $ python -m pip install pysocks
 ```
 __Run__
 ```
-$ python wascan.py
+$ python galileo.py
 ```
