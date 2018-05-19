@@ -3,6 +3,30 @@
 
 Galileo is an open source penetration testing tool for web application, which helps developers and penetration testers identify and exploit vulnerabilities in their web applications.
 
-### Screenshots
+Screenshots
 ----
 ![screen](https://raw.githubusercontent.com/m4ll0k/Galileo/master/screen.png)
+
+
+Installation
+----
+```
+$ git clone https://github.com/m4ll0k/Galileo.git galileo
+$ cd galileo
+```
+__Install requirements__
+```
+$ pip install -r requirements.txt
+```
+__or__ 
+```
+$ apt-get install python-pysocks
+```
+__For windows__
+```
+$ python -m pip install pysocks
+```
+__Run__
+```
+$ python wascan.py
+```
