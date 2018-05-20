@@ -5,7 +5,11 @@
 # @descr : Web Application Audit Framework
 # @author: Momo Outaadi
 
-from core import base,framework,module
+from core import base
+from lib.utils.printer import *
 
-x = base.Base()
-x.cmdloop()
+try:
+	x = base.Base()
+	x.cmdloop()
+except KeyboardInterrupt:
+	exit(warn('Exit..'))
