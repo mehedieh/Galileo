@@ -12,4 +12,5 @@ try:
 	x = base.Base()
 	x.cmdloop()
 except KeyboardInterrupt:
+	print('')
 	exit(warn('Exit..'))
