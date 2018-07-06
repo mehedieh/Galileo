@@ -16,7 +16,7 @@ $ cd galileo
 ```
 __Install requirements__
 ```
-$ pip install -r requirements.txt
+$ python2 -m pip install -r requirements.txt
 ```
 __or__ 
 ```
@@ -24,11 +24,11 @@ $ apt-get install python-pysocks
 ```
 __For windows__
 ```
-$ python -m pip install pysocks
+$ python2 -m pip install pysocks
 ```
 __Run__
 ```
-$ python galileo.py
+$ python2 galileo.py
 ```
 
 Usage
